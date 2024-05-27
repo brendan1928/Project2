@@ -36,5 +36,9 @@ CREATE TABLE campaign(
 	FOREIGN KEY (subcategory_id) REFERENCES subcategory(subcategory_id)
 );
 
+SELECT * FROM category;
+SELECT * FROM contacts;
+SELECT * FROM subcategory;
+SELECT * FROM category;
 --When importing the CSV files, be sure to import CATEGORY, CONTACTS, AND SUBCATEGORY before CAMPAIGN. 
 --This is because CAMPAIGN has references to those files.
